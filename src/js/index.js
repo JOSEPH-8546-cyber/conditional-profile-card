@@ -44,17 +44,16 @@ function render(variables = {}) {
     Role = variables.Role;
   }
 
-  let ccountry= "ccountry;
-
+  let country = "country";
   if (variables.country !== null) {
-   
-    }
+    country = variables.country;
+  }
 
   let city = "city";
   if (variables.city !== null) {
-   
- city = variables.city;
+    city = variables.city;
   }
+
   let twitter = "twitter";
   if (variables.twitter !== null) {
     twitter = variables.twitter;
@@ -62,7 +61,7 @@ function render(variables = {}) {
 
   let github = "github";
   if (variables.github !== null) {
-    github = variable.github;
+    github = variables.github;
   }
 
   let linkedin = "linkedin";
